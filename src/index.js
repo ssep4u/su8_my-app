@@ -1,17 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
-=======
 import './index.css'
 
 class Square extends React.Component {
@@ -96,4 +84,3 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
->>>>>>> 8c5c5c2213aa1c11f12b482eb98f017266e1f2e8
